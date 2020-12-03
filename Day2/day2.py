@@ -1,5 +1,8 @@
 import part1
 import part2
 
-print("The answer to part 1 is " + str(part1.find_answer()))
-print("The answer to part 2 is " + str(part2.find_answer()))
+with open('day2/input.txt', 'r') as file:
+    input = file.read().splitlines()
+
+print("The answer to part 1 is " + str(part1.find_answer(input)))
+print("The answer to part 2 is " + str(part2.find_answer(input)))

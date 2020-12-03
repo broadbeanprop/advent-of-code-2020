@@ -1,8 +1,7 @@
-def find_answer():
-    entries = open('input.txt', 'r').readlines()
-    entries_range = range(len(entries))
+def find_answer(input):
+    input_range = range(len(input))
 
-    for i in entries_range:
-        for j in entries_range:
-            if i != j and int(entries[i]) + int(entries[j]) == 2020:
-                return int(entries[i]) * int(entries[j])
+    for i in input_range:
+        for j in input_range:
+            if i != j and int(input[i]) + int(input[j]) == 2020:
+                return int(input[i]) * int(input[j])
