@@ -39,21 +39,21 @@ class Passport:
     def __birth_year_is_valid(self):
         if (int(self.birth_year) < 1920 or
             int(self.birth_year) > 2002):
-           return False
+            return False
         else:
             return True
 
     def __issue_year_is_valid(self):
         if (int(self.issue_year) < 2010 or
             int(self.issue_year) > 2020):
-           return False
+            return False
         else:
             return True
 
     def __expiration_year_is_valid(self):
         if (int(self.expiration_year) < 2020 or
             int(self.expiration_year) > 2030):
-           return False
+            return False
         else:
             return True
     
