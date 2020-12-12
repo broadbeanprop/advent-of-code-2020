@@ -1,7 +1,7 @@
 from Direction import Direction
 from Action import Action
 
-class Ship:
+class ShipPart1:
 
     def __init__(self, start_direction = Direction.East):
         self.current_coordinates = { Direction.North : 0, Direction.East : 0 }
