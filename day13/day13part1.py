@@ -1,6 +1,3 @@
-# floor(earliest time / id) = previous bus
-# previous bus + id = next bus
-
 import collections
 import math
 
